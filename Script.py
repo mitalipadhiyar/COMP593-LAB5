@@ -1,20 +1,14 @@
 from pastebin_api import post_new_paste
-from poke_api import get_poke_name
-import sys
+
 
 def main():
-    name=get_pokemon_name()
-    info=get_poke_name(name)
+    return
     
 
 def get_pokemon_name():
-    num_params=len(sys.argv)-1
-    if num_params>0:
-        return sys.argv[1]
-    else:
-        print("Error: Missing pokemon name.")
+    return
 def poke_paste(info):
-    return 
+    return
 
 
 
